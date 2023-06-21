@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
-import { Store } from '@ngrx/store';
-import { increment,decrement } from '../store/counter.action';
+import {Store} from '@ngrx/store';
+import {increment, decrement} from '../store/counter.action';
 
 @Component({
   selector: 'app-counter-controls',
